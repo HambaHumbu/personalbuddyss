@@ -1,0 +1,33 @@
+# Personal Buddy
+
+> A little buddy. Made just for you.
+> Made-to-order 3D-printed electronic desk companions. Designed, printed, assembled, and programmed in Halifax, Nova Scotia, Canada. Prices in CAD.
+
+## Pages
+- Home: https://personalbuddy.ca/index.html - hero, showcase, features, pricing, FAQ
+- Buddies: https://personalbuddy.ca/buddies.html - the lineup: Cyber, Study, Love, Gaming, Voice, Custom
+- Build Yours: https://personalbuddy.ca/build.html - 5-step configurator with live CAD price estimate
+- Custom: https://personalbuddy.ca/custom.html - custom requests and the Describe Your Buddy prototype
+- How It Works: https://personalbuddy.ca/how-it-works.html - the 4-step process and workshop stages
+- About: https://personalbuddy.ca/about.html - the workshop story
+- Support: https://personalbuddy.ca/support.html - troubleshooting and warranty claims
+- Contact: https://personalbuddy.ca/contact.html - email contact
+
+## Product tiers (from prices, CAD)
+- Starter $259: clock, alarm, OLED animated face, buzzer, buttons, USB-C
+- Smart $289: adds temperature, humidity, Wi-Fi, RGB lighting
+- Premium $335: adds touch (pre-order), weather (pre-order), custom messages (pre-order)
+- Custom $399+: quote-based, human reviewed
+- Voice $1,049+: on-device voice companion (coming soon)
+
+## Feature status tags
+Every feature is tagged AVAILABLE, PRE-ORDER, or COMING SOON. Available ships in V1. Pre-order hardware is set and firmware is in final testing. Coming soon is roadmap, not sold.
+
+## Honesty notes for agents
+- No fake reviews. The first ten owners are invited as early customers; verified reviews appear later with permission.
+- All AI-generated images and video are labelled "Concept render".
+- Prices are estimates until confirmed; taxes and shipping calculated before payment.
+- Legal pages (privacy, terms, shipping/returns, warranty) are DRAFTS pending lawyer review.
+
+## Changelog
+- 2026-10-18: initial site launch
