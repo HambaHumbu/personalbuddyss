@@ -1,20 +1,23 @@
 # PERSONAL BUDDY - website build
 
 Multipage marketing site for Personal Buddy, a made-to-order 3D-printed
-electronic companion workshop in Halifax, NS. Brand system: "Sharp Edge".
+electronic companion workshop in Halifax, NS. Design system: "Halifax
+Standard" - an editorial dark/cream system (near-black + cream bands, deep
+green accent, Archivo grotesque type, uppercase mono labels, numbered
+sections, full-height footer wordmark).
 
 ## Preview
-Open `web/index.html` in a browser, or serve the folder:
+Serve the repo root (the site lives at the root; GitHub Pages deploys from
+here via .github/workflows/jekyll-gh-pages.yml):
 ```
-cd web
 python3 -m http.server 8080
 ```
 then visit http://localhost:8080
 
 ## Contents
-- `web/` - the site: 12 pages, Sharp Edge CSS, configurator, face engine
+- root HTML - the site: 13 pages (12 plus 404.html), css/style.css, js/
 - `docs/STEP0.md` - understanding, brief-vs-PDF disagreements, phase plan
-- `docs/OPEN_DECISIONS.md` - 21 business decisions awaiting the owner
+- `docs/OPEN_DECISIONS.md` - 25 business decisions awaiting the owner
 - `docs/bom.csv` - verified CAD bill of materials (checked 2026-10-18)
 - `docs/pricing-model.xlsx` - live-formula pricing with 50%+ margin per tier
 - `docs/KNOWN_LIMITATIONS.md` - launch blockers and honest scope notes

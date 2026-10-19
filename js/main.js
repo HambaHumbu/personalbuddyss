@@ -67,6 +67,7 @@
   /* ---------- pixel face demos ----------
      data-face: idle | happy | sleepy | alarm | listening | message | focus
      data-text: optional caption drawn under the face (e.g. 08:00) */
+  var FACE_MINT = "#6FE7B8", FACE_RED = "#FF5A45", FACE_BG = "#0A0A08";
   var faces = document.querySelectorAll("canvas.face-demo");
   faces.forEach(function (cv) {
     var ctx = cv.getContext("2d");
@@ -77,7 +78,7 @@
     var cx = W / 2, cy = H / 2 - 14;
 
     function rect(x, y, w, h, color) {
-      ctx.fillStyle = color || "#4DFFBC";
+      ctx.fillStyle = color || FACE_MINT;
       ctx.fillRect(Math.round(x), Math.round(y), Math.round(w), Math.round(h));
     }
     function eye(x, y, open, color) {
@@ -98,9 +99,9 @@
       }
     }
     function draw(t) {
-      ctx.fillStyle = "#050607";
+      ctx.fillStyle = FACE_BG;
       ctx.fillRect(0, 0, W, H);
-      var color = state === "alarm" ? "#FF4D4D" : "#4DFFBC";
+      var color = state === "alarm" ? FACE_RED : FACE_MINT;
       var blink = state === "idle" && !reduceMotion && (t % 3200) > 3000;
       var ex = px * 4;
       if (state === "sleepy") {
@@ -108,7 +109,7 @@
         mouth("sleep", color);
         if (!reduceMotion) { // floating Z
           var zoff = (t / 900) % 3;
-          ctx.fillStyle = color; ctx.font = "700 22px 'JetBrains Mono', monospace";
+          ctx.fillStyle = color; ctx.font = "700 22px 'Space Mono', monospace";
           ctx.fillText("z", cx + px * 7, cy - px * 3 - zoff * 12);
         }
       } else if (state === "happy") {
@@ -130,7 +131,7 @@
         eye(cx - ex, cy, true, color); eye(cx + ex, cy, true, color);
         mouth("smile", color);
         if (!reduceMotion && (t % 1600) < 800) { // heart
-          rect(cx + px * 6, cy - px * 4, px * 3, px * 2, "#FF4D4D");
+          rect(cx + px * 6, cy - px * 4, px * 3, px * 2, FACE_RED);
         }
       } else if (state === "focus") {
         eye(cx - ex, cy, true, color); eye(cx + ex, cy, true, color);
@@ -141,13 +142,13 @@
       }
       if (caption) {
         ctx.fillStyle = color;
-        ctx.font = "700 40px 'JetBrains Mono', monospace";
+        ctx.font = "700 40px 'Space Mono', monospace";
         ctx.textAlign = "center";
         ctx.fillText(caption, cx, H - 34);
         ctx.textAlign = "left";
       }
       // corner ticks
-      ctx.strokeStyle = "rgba(77,255,188,0.35)"; ctx.lineWidth = 2;
+      ctx.strokeStyle = "rgba(111,231,184,0.35)"; ctx.lineWidth = 2;
       [[14, 14, 1, 1], [W - 14, 14, -1, 1], [14, H - 14, 1, -1], [W - 14, H - 14, -1, -1]].forEach(function (c) {
         ctx.beginPath();
         ctx.moveTo(c[0], c[1] + 12 * c[3]); ctx.lineTo(c[0], c[1]); ctx.lineTo(c[0] + 12 * c[2], c[1]);

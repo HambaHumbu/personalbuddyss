@@ -32,11 +32,11 @@
     { id: "black", name: "Black", hex: "#232323", add: 0 },
     { id: "white", name: "White", hex: "#f2f2f2", add: 0 },
     { id: "red", name: "Red", hex: "#FF4D4D", add: 0 },
-    { id: "green", name: "Green", hex: "#4DFFBC", add: 0 },
+    { id: "green", name: "Green", hex: "#6FE7B8", add: 0 },
     { id: "blue", name: "Blue", hex: "#4d7cff", add: 0 },
     { id: "purple", name: "Purple", hex: "#9b5cff", add: 0 },
     { id: "pink", name: "Pink", hex: "#ff7ad9", add: 0 },
-    { id: "custom", name: "Custom", hex: "linear-gradient(135deg,#4DFFBC,#FF4D4D)", add: 12 }
+    { id: "custom", name: "Custom", hex: "linear-gradient(135deg,#6FE7B8,#C2452D)", add: 12 }
   ];
 
   var FEATURES = [
@@ -350,7 +350,7 @@
     var type = TYPES.filter(function (x) { return x.id === state.type; })[0];
     var col = COLOURS.filter(function (x) { return x.id === state.colour; })[0];
     var html = '<p class="spec">Live estimate</p>' +
-      '<div class="total">' + money(pr.total) + ' <span style="font-size:1rem;color:var(--gray-500)">CAD</span></div>' +
+      '<div class="total">' + money(pr.total) + ' <span style="font-size:1rem;color:var(--muted-on-dark)">CAD</span></div>' +
       '<p class="hint">Estimated. Taxes and shipping are calculated before payment. Final price is confirmed before you pay.</p>' +
       "<ul class='checklist'>" +
       "<li><strong>" + t.name + "</strong> tier</li>" +

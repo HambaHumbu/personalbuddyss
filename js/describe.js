@@ -22,34 +22,34 @@
   var TIER_RANK = { starter: 0, smart: 1, premium: 2, custom: 3, voice: 4 };
 
   var KEYWORDS = [
-    [/\\bcat\\b|kitten|kitty/, "cat", "type"], [/\\bdog\\b|puppy/, "dog", "type"],
-    [/\\balien\\b|martian/, "alien", "type"], [/\\bgamer\\b|gaming|esports/, "gamer", "type"],
-    [/\\bspace\\b|astronaut|rocket/, "space", "type"], [/\\blove\\b|valentine|girlfriend|boyfriend|wife|husband|partner/, "love", "type"],
-    [/\\brobot\\b|bot|droid/, "robot", "type"],
-    [/\\bblack\\b/, "black", "colour"], [/\\bwhite\\b/, "white", "colour"],
-    [/\\bred\\b/, "red", "colour"], [/\\bgreen\\b|mint/, "green", "colour"],
-    [/\\bblue\\b/, "blue", "colour"], [/\\bpurple\\b/, "purple", "colour"], [/\\bpink\\b/, "pink", "colour"],
-    [/\\btime\\b|\\bclock\\b|shows? the time|what time/, "clock", "feature"],
-    [/\\balarm\\b|wake.?me|wake.?up/, "alarm", "feature"],
-    [/\\btimer\\b|countdown/, "timer", "feature"],
-    [/\\bpomodoro\\b|focus/, "pomodoro", "feature"],
-    [/\\btemp(erature)?\\b|degrees|how (hot|cold)/, "temperature", "feature"],
-    [/\\bhumidity\\b|humid/, "humidity", "feature"],
-    [/\\bweather\\b|forecast|rain|snow/, "weather", "feature"],
-    [/\\brgb\\b|lights?|glow|led/, "rgb", "feature"],
-    [/\\btouch\\b|tap/, "touch", "feature"],
-    [/\\bmotion\\b|movement|detect/, "motion", "feature"],
-    [/\\bface\\b|smile|expression/, "face", "feature"],
-    [/\\bmessages?\\b|say |says |remind|display.*text|shows?.*message/, "messages", "feature"],
-    [/\\bwifi\\b|wi-fi|internet/, "wifi", "feature"],
-    [/\\bbluetooth\\b/, "bluetooth", "feature"],
-    [/\\bvoice\\b|talk|speak|hey buddy|assistant|music/, "voice", "feature"],
-    [/\\bsound\\b|buzzer|beep|chime/, "sounds", "feature"]
+    [/\bcat\b|kitten|kitty/, "cat", "type"], [/\bdog\b|puppy/, "dog", "type"],
+    [/\balien\b|martian/, "alien", "type"], [/\bgamer\b|gaming|esports/, "gamer", "type"],
+    [/\bspace\b|astronaut|rocket/, "space", "type"], [/\blove\b|valentine|girlfriend|boyfriend|wife|husband|partner/, "love", "type"],
+    [/\brobot\b|bot|droid/, "robot", "type"],
+    [/\bblack\b/, "black", "colour"], [/\bwhite\b/, "white", "colour"],
+    [/\bred\b/, "red", "colour"], [/\bgreen\b|mint/, "green", "colour"],
+    [/\bblue\b/, "blue", "colour"], [/\bpurple\b/, "purple", "colour"], [/\bpink\b/, "pink", "colour"],
+    [/\btime\b|\bclock\b|shows? the time|what time/, "clock", "feature"],
+    [/\balarm\b|wake.?me|wake.?up/, "alarm", "feature"],
+    [/\btimer\b|countdown/, "timer", "feature"],
+    [/\bpomodoro\b|focus/, "pomodoro", "feature"],
+    [/\btemp(erature)?\b|degrees|how (hot|cold)/, "temperature", "feature"],
+    [/\bhumidity\b|humid/, "humidity", "feature"],
+    [/\bweather\b|forecast|rain|snow/, "weather", "feature"],
+    [/\brgb\b|lights?|glow|led/, "rgb", "feature"],
+    [/\btouch\b|tap/, "touch", "feature"],
+    [/\bmotion\b|movement|detect/, "motion", "feature"],
+    [/\bface\b|smile|expression/, "face", "feature"],
+    [/\bmessages?\b|say |says |remind|display.*text|shows?.*message/, "messages", "feature"],
+    [/\bwifi\b|wi-fi|internet/, "wifi", "feature"],
+    [/\bbluetooth\b/, "bluetooth", "feature"],
+    [/\bvoice\b|talk|speak|hey buddy|assistant|music/, "voice", "feature"],
+    [/\bsound\b|buzzer|beep|chime/, "sounds", "feature"]
   ];
   var UNSUPPORTED = [
-    [/\\bwalk\\b|\\brun\\b|\\bmove (its|their) (legs|arms)\\b/, "walking / locomotion"],
-    [/\\bfly\\b|\\bflying\\b|drone/, "flight"],
-    [/\\bcamera\\b|video call/, "camera / video calls"]
+    [/\bwalk\b|\brun\b|\bmove (its|their) (legs|arms)\b/, "walking / locomotion"],
+    [/\bfly\b|\bflying\b|drone/, "flight"],
+    [/\bcamera\b|video call/, "camera / video calls"]
   ];
 
   function money(n) { return "$" + n.toFixed(0); }

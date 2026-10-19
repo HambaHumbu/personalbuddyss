@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://personalbuddy.ca/sitemap.xml
