@@ -1,0 +1,31 @@
+tier,part,spec,supplier,unit_price_cad,qty,line_total,source_url,checked_date
+starter,ESP32-S3 dev board,"ESP32-S3-DevKitC-1 N16R8, Type-C [UNVERIFIED: catalog snapshot only, page blocked]",Walmart.ca (marketplace seller),16.65,1,16.65,https://www.walmart.ca/en/ip/ESP32-S3-DevKitC-1-Development-Board-Module-Equipped-with-the-ESP32-S3-1-N16R8-Module-WIFI-No-Welding-1-Development-Board-Module/3GYRLZQ78NVB,2026-10-18
+starter,OLED display 0.96in,"SSD1306 128x64 I2C, blue, presoldered pins [GBP->CAD approx @1.83]",AdditiveArcade (UK),6.68,1,6.68,https://additivearcade.com/products/096-oled-display,2026-10-18
+starter,DS3231 RTC module,"with AT24C32 EEPROM, CR2032 battery included [USD->CAD @1.4125]",Addicore (US),6.48,1,6.48,https://www.addicore.com/products/ds3231-real-time-clock-module-with-eeprom,2026-10-18
+starter,Piezo buzzer module,"active 5V, 22x22mm PCB [USD->CAD @1.4125]",HackMakeMod (US),4.22,1,4.22,https://hackmakemod.com/products/active-buzzer,2026-10-18
+starter,Tactile push button,"6x6x4.3mm momentary [USD->CAD @1.4125]",SaberBay (US),1.41,2,2.82,https://www.saberbay.com/products/untitled-sep6_08-10,2026-10-18
+starter,USB-C breakout,"panel-mount breakout + cable [USD->CAD @1.4125; NOTE: fightstick form factor, re-source a generic PCB breakout]",EternalRival (US),9.87,1,9.87,https://www.eternalrival.com/products/usb-c-low-profile-bracket-with-cable,2026-10-18
+starter,USB-C cable 1m,"generic charge cable [UNVERIFIED estimate]",n/a,10.00,1,10.00,,2026-10-18
+smart,SHT40 temp/humidity module,"I2C module [UNVERIFIED; reference Adafruit 4885 $5.95 USD -> CAD @1.4125]",n/a,8.40,1,8.40,https://www.adafruit.com/product/4885,2026-10-18
+smart,WS2812B RGB LEDs,"15-LED segment from 60 LED/m strip, 5V [USD->CAD @1.4125, pro-rata]",ShillehTek (US),2.12,1,2.12,https://shillehtek.com/products/non-waterproof-ws2812b-smd-led-strip-60-led-meter-flexible-5m-roll-5v-ip30,2026-10-18
+smart,RGB diffuser,"frosted strip for LED diffuser [UNVERIFIED estimate]",n/a,1.50,1,1.50,,2026-10-18
+premium,TTP223 touch module,"capacitive touch, 3.3-5V [GBP->CAD approx @1.83]",Switch Electronics (UK),1.88,1,1.88,https://www.switchelectronics.co.uk/products/ttp223b-1-channel-capacitive-touch-button-switch-module,2026-10-18
+premium,MAX98357A I2S amp,"I2S 3W Class-D breakout [USD->CAD @1.4125]",PMD Way (AU),13.02,1,13.02,https://pmdway.com/products/max98357-i2s-3w-class-d-amplifier-breakout,2026-10-18
+premium,Speaker,"8 ohm 2W, 40mm [USD->CAD @1.4125]",ameriDroid (US),4.17,1,4.17,https://ameridroid.com/products/8ohm-2w-36mm-mini-speaker,2026-10-18
+voice,Raspberry Pi 5 8GB,"SC1112 board, 8GB LPDDR4X",PiShop.ca,249.50,1,249.50,https://www.pishop.ca/product/raspberry-pi-5-8gb/,2026-10-18
+voice,Raspberry Pi 5 16GB,"SC1113 board, 16GB [listed for reference; NOT recommended - RAM unused by workload]",PiShop.ca,434.85,1,434.85,https://www.pishop.ca/product/raspberry-pi-5-16gb/,2026-10-18
+voice,Pi 5 Active Cooler,"official SC1148",PiShop.ca,7.15,1,7.15,https://www.pishop.ca/product/raspberry-pi-active-cooler/,2026-10-18
+voice,USB microphone,"Adafruit mini USB mic [NOTE: not a mic array; ReSpeaker array UNVERIFIED at CA reseller]",PiShop.ca,8.95,1,8.95,https://www.pishop.ca/product/mini-usb-microphone/,2026-10-18
+voice,Round IPS display,"Waveshare 1.28in 240x240 IPS GC9A01, 4-wire SPI",PiShop.ca,20.95,1,20.95,https://www.pishop.ca/product/240x240-general-1-28inch-round-lcd-display-module-65k-rgb/,2026-10-18
+voice,microSD 128GB,"SanDisk High Endurance, UHS-I",PiShop.ca,55.45,1,55.45,https://www.pishop.ca/product/sandisk-128gb-high-endurance-microsdxc-card-blank/,2026-10-18
+voice,27W USB-C PD PSU,"official 5.1V/5A PD, white US",PiShop.ca,16.95,1,16.95,https://www.pishop.ca/product/raspberry-pi-27w-usb-c-power-supply-white-us/,2026-10-18
+voice,Mute slide switch,"DPDT on-on, 2-pack at CA$5.01 -> per-unit",B&E Electronics (Calgary),2.51,1,2.51,https://be-electronics.com/products/mode-46-010-2-slide-switch-dpdt-on-on-3a-125vac-1-5a-250vac-solder-terminals-2-pack,2026-10-18
+voice,MAX98357A I2S amp,"I2S 3W Class-D breakout [USD->CAD @1.4125]",PMD Way (AU),13.02,1,13.02,https://pmdway.com/products/max98357-i2s-3w-class-d-amplifier-breakout,2026-10-18
+voice,Speaker,"8 ohm 2W, 40mm [USD->CAD @1.4125]",ameriDroid (US),4.17,1,4.17,https://ameridroid.com/products/8ohm-2w-36mm-mini-speaker,2026-10-18
+voice,NVMe HAT (optional),"Waveshare PCIe-to-M.2 board (D), 2230-2280",PiShop.ca,10.60,1,10.60,https://www.pishop.ca/product/pcie-to-m-2-adapter-board-d-for-raspberry-pi-5/,2026-10-18
+voice,NVMe SSD 256GB (optional),"budget 256GB [UNVERIFIED current price; PiShop 256GB SSDs all OOS today]",Amazon.ca,67.50,1,67.50,,2026-10-18
+custom,OLED display 1.3in,"SH1106 128x64 I2C, white [USD->CAD @1.4125; upgrade option]",ShillehTek (US),12.70,1,12.70,https://shillehtek.com/products/1-3-i2c-white-oled-display-module-4-pin-sh1106,2026-10-18
+all,PLA filament,"Elegoo PLA 1kg, ~200g per buddy",Elegoo CA (ca.elegoo.com),18.99,0.2,3.80,https://ca.elegoo.com/products/pla-filament-1-75mm-colored-1kg,2026-10-18
+all,Machine time,"~6 print-hours @ CA$2.50/h all-in (depreciation + wear + power) [ESTIMATE]",n/a,15.00,1,15.00,,2026-10-18
+all,Assembly + test labour,"60 min @ CA$25/h, Halifax [ASSUMPTION - validate with timed builds]",n/a,25.00,1,25.00,,2026-10-18
+all,Packaging,"box + padding + insert [ESTIMATE]",n/a,5.00,1,5.00,,2026-10-18
