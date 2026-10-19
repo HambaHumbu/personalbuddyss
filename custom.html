@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Custom Buddy Design | Personal Buddy Halifax</title>
+<meta name="description" content="Dream it, we build it in Halifax. Request a fully custom Personal Buddy with your idea, sketch, colours, and budget. Quote-based, human reviewed.">
+<link rel="canonical" href="https://personalbuddy.ca/custom.html">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="geo.region" content="CA-NS">
+<meta name="geo.placename" content="Halifax">
+<meta name="ICBM" content="44.6488, -63.5752">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Custom Buddy | Personal Buddy">
+<meta property="og:description" content="Dream it, we build it. Fully custom Buddy requests, quote-based and human reviewed.">
+<meta property="og:image" content="img/og.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="favicon.png" type="image/png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://personalbuddy.ca/index.html"},{"@type":"ListItem","position":2,"name":"Custom","item":"https://personalbuddy.ca/custom.html"}]}
+</script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="index.html" aria-label="Personal Buddy home">
+      <span class="brand-mark" aria-hidden="true"><img src="img/logo-icon.png" alt="" width="38" height="38"></span>
+      <span>PERSONAL&nbsp;BUDDY</span>
+    </a>
+    <button class="menu-toggle" aria-expanded="false" aria-controls="mainnav">MENU</button>
+    <nav class="main-nav" id="mainnav" aria-label="Main">
+      <a href="index.html">Home</a>
+      <a href="buddies.html">Buddies</a>
+      <a href="build.html">Build Yours</a>
+      <a href="custom.html" aria-current="page">Custom</a>
+      <a href="how-it-works.html">How It Works</a>
+      <a href="about.html">About</a>
+    </nav>
+    <a class="btn btn-primary nav-cta" href="build.html">Build Your Buddy</a>
+  </div>
+</header>
+
+<main id="main">
+<section class="block">
+  <div class="wrap">
+    <p class="spec reveal">CUSTOM REQUEST</p>
+    <h1 class="reveal">Dream It. We'll Build It.</h1>
+    <p class="reveal muted" style="max-width:44rem">Something completely unique starts with a conversation. Describe it below, or just talk to us in plain words and let the prototype draft a configuration for you.</p>
+
+    <div class="card corner-ticks reveal" id="describe-buddy" style="margin-top:36px">
+      <p class="spec">DESCRIBE YOUR BUDDY / CONCEPT PROTOTYPE</p>
+      <h2 style="font-size:1.5rem">Type a sentence. Get a starting config.</h2>
+      <p class="muted">Example: "I want a green robot for my girlfriend that shows the time, reminds her to drink water, and displays 'I love you' every morning at 8 AM."</p>
+      <form id="describe-form">
+        <div class="field">
+          <label for="describe-input">Describe your Buddy</label>
+          <textarea id="describe-input" maxlength="500" placeholder="A blue gamer buddy with RGB that shows my match schedule..."></textarea>
+        </div>
+        <button class="btn btn-primary" type="submit">Generate proposal</button>
+      </form>
+      <div id="describe-output" style="margin-top:24px" aria-live="polite"></div>
+      <p class="hint">Concept prototype. The mapping runs in your browser with fixed rules; a production build will use a validated language model. A human reviews every request before any money is taken.</p>
+    </div>
+
+    <div class="reveal" style="margin-top:56px;max-width:44rem">
+      <h2>Prefer the form?</h2>
+      <form id="custom-form">
+        <div class="field">
+          <label for="cf-name">Name</label>
+          <input type="text" id="cf-name" required autocomplete="name" maxlength="80">
+        </div>
+        <div class="field">
+          <label for="cf-email">Email</label>
+          <input type="email" id="cf-email" required autocomplete="email" maxlength="120">
+        </div>
+        <div class="field">
+          <label for="cf-what">What do you want?</label>
+          <textarea id="cf-what" required maxlength="2000" placeholder="Describe the Buddy you are imagining."></textarea>
+        </div>
+        <div class="field">
+          <label for="cf-do">What should it do?</label>
+          <textarea id="cf-do" required maxlength="2000" placeholder="List the features and behaviours."></textarea>
+        </div>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:20px">
+          <div class="field">
+            <label for="cf-colour">Preferred colour</label>
+            <input type="text" id="cf-colour" maxlength="60" placeholder="e.g. mint green">
+          </div>
+          <div class="field">
+            <label for="cf-budget">Budget (CAD)</label>
+            <input type="text" id="cf-budget" inputmode="numeric" maxlength="20" placeholder="e.g. 400">
+          </div>
+        </div>
+        <div class="field">
+          <label for="cf-sketch">Sketch or reference image</label>
+          <input type="file" id="cf-sketch" accept="image/*" aria-describedby="cf-sketch-hint">
+          <p class="hint" id="cf-sketch-hint">Attach your sketch to the email that opens, or send it to support@personalbuddy.ca with your name in the subject.</p>
+        </div>
+        <button class="btn btn-primary" type="submit">Submit Custom Idea</button>
+        <p class="hint">Custom tier starts at $399 CAD. Nothing is charged until you approve the quote.</p>
+      </form>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <p class="footer-brand">PERSONAL BUDDY</p>
+        <p class="muted">A little buddy. Made just for you.</p>
+        <p class="spec">HALIFAX, NOVA SCOTIA</p>
+        <p class="muted" style="font-size:0.9rem"><a href="mailto:support@personalbuddy.ca">support@personalbuddy.ca</a><br><a href="tel:+14372474844">437-247-4844</a></p>
+      </div>
+      <div>
+        <h4>Shop</h4>
+        <ul><li><a href="buddies.html">Buddies</a></li><li><a href="build.html">Build Yours</a></li><li><a href="custom.html">Custom</a></li><li><a href="index.html">Pricing</a></li></ul>
+      </div>
+      <div>
+        <h4>Company</h4>
+        <ul><li><a href="how-it-works.html">How It Works</a></li><li><a href="about.html">About</a></li><li><a href="support.html">Support</a></li><li><a href="contact.html">Contact</a></li></ul>
+      </div>
+      <div>
+        <h4>Legal</h4>
+        <ul><li><a href="privacy.html">Privacy</a></li><li><a href="terms.html">Terms</a></li><li><a href="shipping-returns.html">Shipping and Returns</a></li><li><a href="warranty.html">Warranty</a></li></ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span class="muted">Copyright <span id="year">2026</span> Personal Buddy. All prices in CAD.</span>
+      <span class="spec">BUDDY / REV A / HALIFAX NS</span>
+    </div>
+  </div>
+</footer>
+<script src="js/main.js"></script>
+<script src="js/describe.js"></script>
+<script>
+document.getElementById("custom-form").addEventListener("submit", function (e) {
+  e.preventDefault();
+  var v = function (id) { return document.getElementById(id).value; };
+  var body = ["CUSTOM IDEA REQUEST", "", "Name: " + v("cf-name"), "Email: " + v("cf-email"),
+    "", "What do you want?", v("cf-what"), "", "What should it do?", v("cf-do"),
+    "", "Preferred colour: " + v("cf-colour"), "Budget (CAD): " + v("cf-budget"),
+    "", "Sketch: " + (document.getElementById("cf-sketch").files.length ? "attached separately by sender" : "none")].join("\n");
+  window.location.href = "mailto:support@personalbuddy.ca?subject=" +
+    encodeURIComponent("Custom Buddy idea from " + v("cf-name")) + "&body=" + encodeURIComponent(body);
+});
+</script>
+</body>
+</html>
