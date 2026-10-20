@@ -197,6 +197,13 @@ section.block > .wrap > div > .spec:first-child::before {
   background: rgba(6, 6, 5, 0.82);
   -webkit-backdrop-filter: blur(12px); backdrop-filter: blur(12px);
 }
+/* solid header while the mobile overlay is open, so the bar reads cleanly
+   over the cream menu (no muddy translucent blend) */
+.site-header:has(.main-nav.open) { border-bottom-color: transparent; }
+.site-header:has(.main-nav.open)::before {
+  background: var(--bg);
+  -webkit-backdrop-filter: none; backdrop-filter: none;
+}
 .header-inner {
   display: flex; align-items: center; gap: clamp(16px, 2.4vw, 40px);
   max-width: var(--maxw); margin: 0 auto; padding: 0 var(--pad);
@@ -481,20 +488,31 @@ html.js .reveal.visible { opacity: 1; transform: none; }
   .main-nav {
     display: none; position: fixed; inset: 0; z-index: 49;
     background: var(--cream); flex-direction: column;
-    padding: 90px var(--pad) 48px; gap: 6px; overflow-y: auto;
+    padding: calc(var(--nav-h) + 24px) var(--pad) 24px; overflow-y: auto;
+    counter-reset: navitem;
   }
-  /* spacers center the list when it fits and collapse to 0 when it does not,
-     which is safe on short screens (plain "center" would clip the top) */
-  .main-nav::before, .main-nav::after { content: ""; flex: 1 1 auto; }
-  .main-nav.open { display: flex; }
-  .main-nav a {
-    color: var(--green); font-family: var(--font-display); font-size: clamp(1.8rem, 7vw, 2.6rem);
-    font-weight: 500; letter-spacing: -0.02em; text-transform: none; padding: 10px 0; min-height: 0;
+  .main-nav.open { display: flex; animation: nav-open 0.22s ease both; }
+  @keyframes nav-open { from { opacity: 0; } to { opacity: 1; } }
+  .main-nav a:not(.btn) {
+    counter-increment: navitem;
+    display: flex; align-items: baseline; gap: 18px; min-height: 44px;
+    color: var(--ink); font-family: var(--font-display);
+    font-size: clamp(1.55rem, 5.6vw, 2.1rem); font-weight: 500; letter-spacing: -0.015em;
+    text-transform: none; padding: 15px 2px;
+    border-bottom: 1px solid var(--line-ink-soft);
   }
-  .main-nav a:hover { color: var(--ink); }
+  .main-nav a:not(.btn)::before {
+    content: counter(navitem, decimal-leading-zero);
+    font-family: var(--font-mono); font-size: 0.72rem; font-weight: 700;
+    letter-spacing: 0.14em; color: var(--green);
+  }
+  .main-nav a:not(.btn):hover { color: var(--green); }
   .main-nav a[aria-current="page"]::after { display: none; }
-  .main-nav a[aria-current="page"] { color: var(--ink); }
-  .main-nav .btn { display: inline-flex; margin-top: 28px; align-self: flex-start; }
+  .main-nav a:not(.btn)[aria-current="page"] { color: var(--green); }
+  .main-nav .btn {
+    display: inline-flex; margin-top: auto; align-self: stretch; justify-content: center;
+    padding: 16px 30px; min-height: 56px;
+  }
   .main-nav .btn-primary { background: var(--green); color: var(--cream); border-color: var(--green); }
   .main-nav .btn-primary:hover { background: var(--ink); border-color: var(--ink); color: var(--cream); }
   .menu-toggle { display: inline-flex; position: relative; z-index: 51; }
