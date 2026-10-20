@@ -9,9 +9,23 @@
   var toggle = document.querySelector(".menu-toggle");
   var nav = document.querySelector(".main-nav");
   if (toggle && nav) {
-    toggle.addEventListener("click", function () {
-      var open = nav.classList.toggle("open");
+    var setMenu = function (open) {
+      nav.classList.toggle("open", open);
       toggle.setAttribute("aria-expanded", open ? "true" : "false");
+      toggle.textContent = open ? "Close" : "Menu";
+      document.body.style.overflow = open ? "hidden" : "";
+    };
+    toggle.addEventListener("click", function () {
+      setMenu(!nav.classList.contains("open"));
+    });
+    nav.addEventListener("click", function (e) {
+      if (e.target.closest("a")) setMenu(false);
+    });
+    document.addEventListener("keydown", function (e) {
+      if (e.key === "Escape" && nav.classList.contains("open")) {
+        setMenu(false);
+        toggle.focus();
+      }
     });
   }
 
