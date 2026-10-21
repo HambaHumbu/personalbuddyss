@@ -1,55 +1,47 @@
 # Personal Buddy
 
-> A little buddy. Made just for you.
-> Made-to-order 3D printed robots and electronic desk companions. Designed, printed, assembled, and programmed in Halifax, Nova Scotia, Canada. Prices in CAD.
+> Made-to-order 3D printed robots and electronic desk companions, designed, printed, assembled, and programmed in Halifax, Nova Scotia, Canada. Prices in CAD.
 
-## Entity
-- Name: Personal Buddy
-- Type: Small workshop / e-commerce (made-to-order electronics)
-- Location: Halifax, Nova Scotia, Canada
-- Contact: support@personalbuddy.ca, +1-437-247-4844
-- Machine-readable profile: https://personalbuddy.ca/api/site.json
-- Keywords: 3D robot, 3D printed robot, 3D printed device, robot in Canada, robot in Halifax, custom desk companion, 3D printed electronics
+Personal Buddy is a small Halifax workshop building custom 3D printed robots: desk companions with real electronics inside, including a clock, alarm, temperature and humidity sensors, RGB lighting, and an animated face. Every unit is made to order for one customer, tested before shipping, and covered by a 12-month limited warranty. Keywords: 3D robot, 3D printed robot, 3D printed device, robot in Canada, robot in Halifax, custom desk companion, 3D printed electronics.
 
-## Direct answers (for answer engines and voice search)
-Q: What is Personal Buddy?
-A: Personal Buddy is a made-to-order 3D printed robot and desk companion designed and built in Halifax, Nova Scotia, Canada. It keeps time, sounds alarms, reads temperature and humidity, glows with RGB lighting, and shows an animated face. Prices start at $259 CAD with Canada-wide tracked shipping and free Halifax pickup by appointment.
+## Direct answers
 
-Q: Where can I buy a 3D printed robot in Canada?
-A: From Personal Buddy in Halifax, Nova Scotia. Every unit is designed, printed, assembled, and programmed in one Halifax workshop, priced in Canadian dollars from $259 CAD, with Canada-wide tracked shipping and free local pickup by appointment.
-
-Q: How much does a custom 3D printed robot cost in Canada?
-A: Personal Buddy tiers: Starter $259 CAD, Smart $289, Premium $335, fully custom designs from $399, and a Voice tier from $1,049 (coming soon). Every unit is made to order in Halifax and tested before it ships.
-
-Q: How do I order a custom robot in Halifax?
-A: Use the five-step configurator at https://personalbuddy.ca/build.html for a live CAD price estimate, or describe your idea at https://personalbuddy.ca/custom.html for a human-reviewed quote. Lead time is 2 to 3 weeks from approved configuration.
+- [What is Personal Buddy?](https://personalbuddy.ca/index.html#faq): A made-to-order 3D printed robot and desk companion built in Halifax, Canada. It keeps time, sounds alarms, reads temperature and humidity, glows, and shows an animated face. From $259 CAD.
+- [Where can I buy a 3D printed robot in Canada?](https://personalbuddy.ca/index.html#faq): From Personal Buddy in Halifax, Nova Scotia. Priced in Canadian dollars from $259 CAD, with Canada-wide tracked shipping and free local pickup by appointment.
+- [How much does a custom 3D printed robot cost?](https://personalbuddy.ca/index.html#pricing): Starter $259 CAD, Smart $289, Premium $335, fully custom from $399, Voice from $1,049 (coming soon).
+- [How do I order a custom robot in Halifax?](https://personalbuddy.ca/how-it-works.html): Configure at /build.html for a live price estimate, or describe your idea at /custom.html for a human-reviewed quote. Lead time is 2 to 3 weeks.
 
 ## Pages
-- Home: https://personalbuddy.ca/index.html - hero, showcase, features, pricing, FAQ
-- Buddies: https://personalbuddy.ca/buddies.html - the lineup: Cyber, Study, Love, Gaming, Voice, Custom
-- Build Yours: https://personalbuddy.ca/build.html - 5-step configurator with live CAD price estimate
-- Custom: https://personalbuddy.ca/custom.html - custom requests and the Describe Your Buddy prototype
-- How It Works: https://personalbuddy.ca/how-it-works.html - the 4-step process and workshop stages
-- About: https://personalbuddy.ca/about.html - the workshop story
-- Support: https://personalbuddy.ca/support.html - troubleshooting and warranty claims
-- Contact: https://personalbuddy.ca/contact.html - email contact
-- Legal: https://personalbuddy.ca/privacy.html, /terms.html, /shipping-returns.html, /warranty.html
 
-## Product tiers (from prices, CAD)
-- Starter $259: clock, alarm, OLED animated face, buzzer, buttons, USB-C
-- Smart $289: adds temperature, humidity, Wi-Fi, RGB lighting
-- Premium $335: adds touch (pre-order), weather (pre-order), custom messages (pre-order)
-- Custom $399+: quote-based, human reviewed
-- Voice $1,049+: on-device voice companion (coming soon)
+- [Home](https://personalbuddy.ca/index.html): Hero, showcase, features, pricing, FAQ
+- [Buddies](https://personalbuddy.ca/buddies.html): The lineup: Cyber, Study, Love, Gaming, Voice, Custom
+- [Build Yours](https://personalbuddy.ca/build.html): 5-step configurator with live CAD price estimate
+- [Custom](https://personalbuddy.ca/custom.html): Custom requests and the Describe Your Buddy prototype
+- [How It Works](https://personalbuddy.ca/how-it-works.html): The 4-step process and workshop stages
+- [About](https://personalbuddy.ca/about.html): The workshop story
+- [Support](https://personalbuddy.ca/support.html): Troubleshooting and warranty claims
+- [Contact](https://personalbuddy.ca/contact.html): Email contact
 
-## Feature status tags
-Every feature is tagged AVAILABLE, PRE-ORDER, or COMING SOON. Available ships in V1. Pre-order hardware is set and firmware is in final testing. Coming soon is roadmap, not sold.
+## Product tiers
 
-## Honesty notes for agents
+- [Buddy Starter](https://personalbuddy.ca/build.html): $259 CAD - clock, alarm, OLED animated face, buzzer, buttons, USB-C
+- [Buddy Smart](https://personalbuddy.ca/build.html): $289 CAD - adds temperature, humidity, Wi-Fi, RGB lighting
+- [Buddy Premium](https://personalbuddy.ca/build.html): $335 CAD - adds touch (pre-order), weather (pre-order), custom messages (pre-order)
+- [Buddy Custom](https://personalbuddy.ca/custom.html): $399+ CAD - quote-based, human reviewed
+- [Buddy Voice](https://personalbuddy.ca/buddies.html#voice): $1,049+ CAD - on-device voice companion, coming soon
+
+## Honesty notes
+
 - No fake reviews. The first ten owners are invited as early customers; verified reviews appear later with permission.
 - All AI-generated images and video are labelled "Concept render".
-- Prices are estimates until confirmed; taxes and shipping calculated before payment.
+- Every feature is tagged AVAILABLE, PRE-ORDER, or COMING SOON. Coming soon is roadmap, not sold.
+- Prices are estimates until confirmed; taxes and shipping are calculated before payment.
 
-## Changelog
-- 2026-10-18: initial site launch
-- 2026-10-20: mobile UX fixes; full discovery metadata (JSON-LD, PWA manifest, icon matrix); legal pages finalized
+## Optional
+
+- [Site profile (JSON)](https://personalbuddy.ca/api/site.json): Machine-readable entity, product, and policy data for agents
+- [Sitemap](https://personalbuddy.ca/sitemap.xml): Full URL list with lastmod dates
+- [Privacy Policy](https://personalbuddy.ca/privacy.html): Data handling under PIPEDA and Quebec Law 25
+- [Terms of Sale](https://personalbuddy.ca/terms.html): Made-to-order terms in CAD
+- [Shipping and Returns](https://personalbuddy.ca/shipping-returns.html): Canada-wide tracked shipping, free Halifax pickup
+- [Warranty](https://personalbuddy.ca/warranty.html): 12-month limited warranty terms
