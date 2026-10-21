@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Personal Buddy icon">
+  <rect width="64" height="64" rx="14" fill="#060605"/>
+  <rect x="15" y="22" width="9" height="9" fill="#6FE7B8"/>
+  <rect x="40" y="22" width="9" height="9" fill="#6FE7B8"/>
+  <rect x="15" y="31" width="9" height="2" fill="#6FE7B8" opacity="0.5"/>
+  <rect x="40" y="31" width="9" height="2" fill="#6FE7B8" opacity="0.5"/>
+  <rect x="22" y="42" width="20" height="4" fill="#6FE7B8"/>
+  <rect x="30" y="8" width="4" height="8" fill="#1F6651"/>
+  <rect x="27" y="4" width="10" height="4" rx="2" fill="#6FE7B8"/>
+</svg>

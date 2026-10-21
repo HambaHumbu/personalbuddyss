@@ -1,0 +1,42 @@
+{
+  "entity": {
+    "type": "Organization",
+    "name": "Personal Buddy",
+    "url": "https://personalbuddy.ca/",
+    "description": "Made-to-order 3D printed robot desk companions with real electronics: clock, alarm, temperature and humidity sensors, RGB lighting, and an animated face. Designed, printed, assembled, and programmed in Halifax, Nova Scotia, Canada.",
+    "location": { "city": "Halifax", "region": "Nova Scotia", "country": "CA" },
+    "email": "support@personalbuddy.ca",
+    "telephone": "+1-437-247-4844",
+    "keywords": ["3D robot", "3D printed robot", "3D printed device", "robot in Canada", "robot in Halifax", "custom desk companion", "3D printed electronics"]
+  },
+  "products": [
+    { "name": "Buddy Starter", "price": 259, "currency": "CAD", "status": "available" },
+    { "name": "Buddy Smart", "price": 289, "currency": "CAD", "status": "available" },
+    { "name": "Buddy Premium", "price": 335, "currency": "CAD", "status": "available" },
+    { "name": "Buddy Custom", "price": 399, "currency": "CAD", "status": "quote_based" },
+    { "name": "Buddy Voice", "price": 1049, "currency": "CAD", "status": "coming_soon" }
+  ],
+  "pages": [
+    { "url": "https://personalbuddy.ca/index.html", "purpose": "home, pricing, FAQ" },
+    { "url": "https://personalbuddy.ca/buddies.html", "purpose": "product lineup" },
+    { "url": "https://personalbuddy.ca/build.html", "purpose": "configurator" },
+    { "url": "https://personalbuddy.ca/custom.html", "purpose": "custom requests" },
+    { "url": "https://personalbuddy.ca/how-it-works.html", "purpose": "process" },
+    { "url": "https://personalbuddy.ca/about.html", "purpose": "about" },
+    { "url": "https://personalbuddy.ca/support.html", "purpose": "support" },
+    { "url": "https://personalbuddy.ca/contact.html", "purpose": "contact" }
+  ],
+  "discovery": {
+    "sitemap": "https://personalbuddy.ca/sitemap.xml",
+    "robots": "https://personalbuddy.ca/robots.txt",
+    "llms": "https://personalbuddy.ca/llms.txt",
+    "site_json": "https://personalbuddy.ca/api/site.json"
+  },
+  "policies": {
+    "lead_time": "2-3 weeks made to order",
+    "warranty": "12-month limited warranty",
+    "shipping": "Canada-wide tracked shipping; free Halifax pickup by appointment",
+    "returns": "Defects and dead-on-arrival within 14 days; custom designs final once approved"
+  },
+  "generated": "2026-10-20"
+}
